@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e2e1;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+form,
+.preview {
+  position: relative;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 48rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+[type='text'] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 5rem 0.5rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+[type='submit'] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #1a71f3;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.preview {
+  text-align: center;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+
+.preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 25rem;
+  height: 25rem;
+  margin: 2rem auto;
+  object-fit: contain;
+  border: 1px solid #c1c1c1;
+}
+
+.preview--active {
+  opacity: 1;
+}
+
+.preview button {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #1a71f3;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  padding: 1rem;
+  border-top: 1px solid #d3d4d3;
+  color: #4a4a4a;
+}
+
+footer .heart {
+  color: #bf2626;
+}
+
+footer a {
+  color: #1a71f3;
+}

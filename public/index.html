@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta property="og:title" content="base64 preview" />
+  <meta property="og:url" content="jlozovei.github.io/base64-preview" />
+  <meta property="og:site_name" content="base64 preview" />
+  <meta name="twitter:title" content="base64 preview" />
+  <meta name="twitter:site" content="@jlozovei" />
+  <meta name="description" content="Preview images with a base64 string" />
+  <title>base64 preview</title>
+  <!-- <link rel="icon" type="image/png" href="./favicon.png" sizes="96x96"> -->
+</head>
+<body>
+  <div class="page">
+    <form>
+      <label for="base64string">Paste the base64 string here</label>
+      <input type="text" name="base64string" id="base64string" required />
+      <input type="submit" value="Preview" />
+    </form>
+
+    <div class="preview" style="opacity: 0;">
+      <img src="" alt="Base64 string image preview" />
+      <button id="download">Download</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Crafted with <span class="heart" aria-label="love">&hearts;</span> by
+      <a href="https://jlozovei.dev" target="_blank" rel="noopener noreferrer">jlozovei</a>
+      | &copy; <span id="footerYear">2020</span></p>
+  </footer>
+
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "base64-preview",
+  "version": "0.0.1",
+  "description": "Preview images with a base64 string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlozovei/base64-preview.git"
+  },
+  "author": "Julio Lozovei <jlozovei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlozovei/base64-preview/issues"
+  },
+  "homepage": "https://github.com/jlozovei/base64-preview#readme"
+}
